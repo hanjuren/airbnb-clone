@@ -8,6 +8,7 @@ import SearchPage from './SearchPage';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
+    
   return (
 
     <div className="app">
@@ -21,9 +22,11 @@ function App() {
                     <SearchPage />
                 </Route>
 
+
                 <Route path="/">
                     <Home />
                 </Route>
+
                 
             </Switch>
 
